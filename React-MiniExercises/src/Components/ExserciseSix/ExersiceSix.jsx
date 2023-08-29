@@ -1,4 +1,8 @@
+// Instead of using the <ul> and <li> HTML tags, create a custom component that accepts a list as its prop, and renders it accordingly.
+
 // import style from '../ExersiceSix/ExersiceSix.module.scss'
+
+
 import { Wrapper } from '../Wrapper/Wrapper'
 import { CreateList } from './CreateList'
 import TwemojiDogFace from '../../assets/TwemojiDogFace'

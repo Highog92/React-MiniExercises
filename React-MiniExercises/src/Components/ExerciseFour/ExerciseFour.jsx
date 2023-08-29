@@ -1,3 +1,7 @@
+// Use the useState React hook to track how many times a button is clicked, and display the number.
+// The number must increment each time the button is clicked:
+
+
 import { useState } from 'react'
 import style from '../ExersiceOne/ExersiceOne.module.scss'
 import { Wrapper } from '../Wrapper/Wrapper'

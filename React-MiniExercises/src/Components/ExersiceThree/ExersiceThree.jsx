@@ -1,4 +1,7 @@
+// In this exercise, build your own Button component and render it three times. On user click, it should alert which button was clicked:
+
 // import style from '../Wrapper/Wrapper.module.scss'
+
 import style from '../ExersiceThree/ExersiceThree.module.scss'
 import { AlertButton } from './AlertButton'
 

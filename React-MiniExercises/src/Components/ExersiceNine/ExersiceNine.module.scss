@@ -1,0 +1,20 @@
+section {
+
+    img{
+        width: 80%;
+    }
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 10fr));
+    gap: 50px;
+    padding: 30px;
+    perspective: 1000px;
+}
+
+.cardInner{}
+.cardFront{}
+.cardBack{}
+
