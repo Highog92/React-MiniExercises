@@ -26,23 +26,21 @@ export function ExerciseNine() {
                         return (
 
                             <Card
-                                key={item.uid} 
-                                src={item.avatar} 
-                                name={item.first_name + " " + item.last_name} 
-                                skill={item.employment.key_skill} 
-                                title={item.employment.title} 
-                                city={item.address.city} 
-                                streetName={item.address.street_name} 
-                                state={item.address.state} 
+                                key={item.uid}
+                                src={item.avatar}
+                                name={item.first_name + " " + item.last_name}
+                                skill={item.employment.key_skill}
+                                title={item.employment.title}
+                                city={item.address.city}
+                                streetName={item.address.street_name}
+                                state={item.address.state}
                                 country={item.address.country}
                             />
                         )
 
                     })
                 }
-
             </div>
-
         </section>
 
     )
